@@ -13,8 +13,7 @@ public class UserInput
 			{
 				 Scanner userIntInput = new Scanner(System.in);
 			        System.out.println("Select your first team by entering a number:");
-			        int selectedTeamNumberOne = userIntInput.nextInt();
-			        String selectedTeamNameOne = "";
+			        
 				
 			        if (selectedTeamNumberOne >= 1 && selectedTeamNumberOne <= 20) {
 			            int selectedTeamIndex = selectedTeamNumberOne - 1; 
@@ -25,8 +24,7 @@ public class UserInput
 			        }
 			       
 			        System.out.println("Select your second team by entering a number:");
-			        int selectedTeamNumberTwo = userIntInput.nextInt();
-			        String selectedTeamNameTwo = "";
+			        
 				
 			        if (selectedTeamNumberTwo >= 1 && selectedTeamNumberTwo <= 20) {
 			            int selectedTeamIndex = selectedTeamNumberTwo - 1; 

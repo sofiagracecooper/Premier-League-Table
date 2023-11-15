@@ -8,6 +8,8 @@ public class Results
 				displayMenu();
 				UserInput userInput = new UserInput();
 			    userInput.askQuestions();
+			    userInput.displayTeamDetails(selectedTeamNumber);
+
 
 			}
 

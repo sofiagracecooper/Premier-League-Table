@@ -6,9 +6,8 @@ public class Results
 			{
 				Database.fillTeams();
 				displayMenu();
-				UserInput userInput = new UserInput();
-			    userInput.askQuestions();
-			    userInput.displayTeamDetails(selectedTeamNumber);
+				int selectedTeamNumber = UserInput.askQuestions();
+		        UserInput.displayTeamDetails(selectedTeamNumber);
 
 
 			}

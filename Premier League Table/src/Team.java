@@ -21,7 +21,7 @@ public class Team
 		losses=l;
 		goalsFor=gf;
 		goalsAgainst=ga;
-		goalDifferential=gf;
+		goalDifferential=gd;
 		points=p;
 		
 	}

@@ -9,9 +9,10 @@ public class UserInput
 			        Scanner userIntInput = new Scanner(System.in);
 			       
 			        askQuestions();
+			        
 			    }
 
-		 static void askQuestions()
+		 static int askQuestions()
 			{
 				 Scanner userIntInput = new Scanner(System.in);
 			        System.out.println( "\n" +"Select a team you would like to learn about by entering a number:");
@@ -26,6 +27,8 @@ public class UserInput
 			        } else {
 			            System.out.println("Invalid team selection. Please enter a number between 1 and 20.");
 			        }
+			        
+			        return selectedTeamNumber;
 			    
 
 			       
